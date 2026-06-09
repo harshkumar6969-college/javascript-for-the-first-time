@@ -1,0 +1,30 @@
+body { 
+    display: grid;
+    place-items: center;
+    background-image: url("Firefly.jpg");
+      font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:200px;
+    object-fit: cover;
+}
+button {
+    
+    display: grid;
+    place-items: center;
+    background-image:url("wallpaper_d_5813a343ea678d20c0ed0c5db791fc909525c31f-removebg-preview.png");
+  background-color: transparent; 
+    height: 318px;
+    width: 711px;
+    transition: transform 0.1s  ease;
+    cursor: pointer;
+    background-size: 911px 518px;
+    background-position: center;
+    border: 0px solid black;
+    background-repeat: no-repeat
+}
+button:active{
+  transform: scale(0.92)
+}
